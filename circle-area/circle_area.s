@@ -12,4 +12,4 @@ radius: str d19, [sp, -16]!
         ldr d19, [sp], 16
         ret
 
-        // ou fazer ldr de =api (endereço) para xn e depois para dn
+        // or load =api (address) into xn and then into dn
