@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern double dist(double x1, double y1, double x2, double y2);
+extern double dist(double px, double py, double qx, double qy);
 
 int main(void)
 {
-   double x1 = 3.0, y1 = 1.5, x2 = 4.0, y2 = 2.75;
+   double px = 3.0, py = 1.5, qx = 4.0, qy = 2.75;
    double res;
 
-   res = dist(x1,y1,x2,y2);
+   res = dist(px,py,qx,qy);
    printf("O valor � %f", res);
    return EXIT_SUCCESS;
 }
