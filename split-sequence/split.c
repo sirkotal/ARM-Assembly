@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-unsigned int split (unsigned int dim , int *I, int *N, unsigned int *P);
+extern unsigned int split (unsigned int dim , int *I, int *N, unsigned int *P);
 
 int main(void) {
     int vct[5] = {2, -76, 120, -1, 5};
